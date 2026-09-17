@@ -1,8 +1,10 @@
-
-def print_hi(name):
-    print(f'Hi, {name}')
+import encryptor
+from src.encryptor import Encryptor
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+
+    encryptor = Encryptor()
+    print(encryptor.encrypt("Hello There!zZ", 3))
+
 
