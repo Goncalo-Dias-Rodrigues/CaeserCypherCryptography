@@ -14,5 +14,4 @@ class Encryptor:
                 result += chr(((ord(letter) - ord("a") + key) % self.alphabetNumber) + ord("a"))
             else:
                 result += letter
-
-        return result
+        print(result)
